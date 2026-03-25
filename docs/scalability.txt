@@ -1,0 +1,13 @@
+Scalability Notes
+
+1. The application can be scaled by separating services into microservices such as authentication service and notes service.
+
+2. Database scaling can be done using read replicas and indexing for faster queries.
+
+3. Caching can be introduced using Redis to reduce database load.
+
+4. Load balancing can be used to distribute traffic across multiple servers.
+
+5. Logging and monitoring tools like Winston or Prometheus can be added for better debugging and performance tracking.
+
+6. The project structure allows adding more modules easily without affecting existing functionality.
