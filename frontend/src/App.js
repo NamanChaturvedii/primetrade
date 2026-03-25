@@ -90,7 +90,7 @@ function App() {
     if (token) fetchNotes();
   }, [token]);
 
-  // 🔥 LOGIN UI
+  // Login
   if (!token) {
     return (
       <div style={styles.container}>
@@ -124,7 +124,7 @@ function App() {
     );
   }
 
-  // 🔥 DASHBOARD UI
+  // Dash
   return (
     <div style={styles.container}>
       <div style={styles.card}>
